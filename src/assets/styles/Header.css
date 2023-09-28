@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    padding: 20px 15px 0;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: var(--font-color);
+}
+
+.greeting {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.btn-logout {
+    width: 75px;
+    height: 35px;
+    padding: 6px;
+    border: 1px solid #5050e3;
+
+    border-radius: 6px;
+    background-color: transparent;
+    color: #5050e3;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn-logout:hover {
+    box-shadow: 0 0 10px #5050e3;
+    background-color: #5050e3;
+    color: #fff;
+}

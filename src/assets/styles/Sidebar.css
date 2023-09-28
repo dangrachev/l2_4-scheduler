@@ -1,0 +1,74 @@
+.sidebar {
+    width: 15rem;
+    height: 100%;
+    padding: 15px;
+    margin-right: 20px;
+
+    position: relative;
+    top: -86px;
+    z-index: 4;
+
+    border-radius: 4px;
+    box-shadow: 0 0 7px #0b0b0b;
+    background-color: var(--bg-component);
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar-title {
+
+}
+
+
+
+.btn-create-task {
+    min-width: 90px;
+    width: auto;
+    height: 30px;
+    padding: 6px;
+
+    border: 1px solid var(--violet);
+    border-radius: 8px;
+    background-color: transparent;
+    text-align: center;
+    color: #905deb;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn-create-task:hover {
+    box-shadow: 0 0 10px var(--violet);
+    background-color: #8249ea;
+    color: #fff;
+}
+
+.sidebar-content {
+    height: 100%;
+    width: 90%;
+    padding: 15px;
+    margin: 0 auto;
+
+    border-radius: 8px;
+
+    background-color: var(--bg-theme);
+}
+
+
+.filter-tab {
+    min-width: 50px;
+    padding: 2px 4px;
+    margin-bottom: 10px;
+
+    border-radius: 22px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+
+    transition: all .2s;
+}
+.filter-tab:hover {
+    transform: translateX(18px);
+}

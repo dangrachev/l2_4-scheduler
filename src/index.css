@@ -1,0 +1,21 @@
+:root {
+  --bg-theme: #161616;
+  --bg-component: #222222;
+  --font-color: #b9b9b9;
+  --border-color: #4d4d4d;
+  --blue: #2424c6;
+  --violet: #8249ea;
+  --light-green: #00ffa2;
+  --orange: #ff9900;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--bg-theme);
+}
